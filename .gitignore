@@ -1,0 +1,30 @@
+# PYTHON & VIRTUAL ENVIRONMENTS
+.venv/
+venv/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+*.manifest
+*.spec
+
+# PROJECT DATA & REPORTS (Local Storage)
+data/input/*
+!data/input/.gitkeep
+
+data/output/*
+!data/output/.gitkeep
+
+# IDEs & EDITORS
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OPERATING SYSTEM JUNK
+
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+Desktop.ini

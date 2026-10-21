@@ -1,0 +1,21 @@
+{
+  "report": {
+    "type": "sales_summary",
+    "period": "monthly"
+  },
+  "source": {
+    "type": "csv",
+    "path": "data/input/"
+  },
+  "columns": {
+    "transaction_id": "Order ID",
+    "transaction_date": "Order Date",
+    "product": "Product Name",
+    "quantity": "Quantity",
+    "unit_price": "Unit Price"
+  },
+  "output": {
+    "type": "excel",
+    "directory":"data/output"
+  }
+}
