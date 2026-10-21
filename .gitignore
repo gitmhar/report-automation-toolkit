@@ -10,7 +10,10 @@ __pycache__/
 
 # PROJECT DATA & REPORTS (Local Storage)
 data/input/*
+!data/input/.gitkeep
+
 data/output/*
+!data/output/.gitkeep
 
 # IDEs & EDITORS
 .vscode/
